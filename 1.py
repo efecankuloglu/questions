@@ -1,4 +1,4 @@
-def sumOfDivBy3and5(num):
+def sumOfDivBy3or5(num):
     return sum([i for i in range(num) if i % 3 == 0 or i % 5 == 0])
 
 
